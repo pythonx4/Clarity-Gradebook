@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32289384168FC9F10089EA4F /* GradeDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32289383168FC9F10089EA4F /* GradeDataTableViewController.m */; };
+		3275AC291688F68A004577C3 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3275AC151688F68A004577C3 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3275AC2A1688F68A004577C3 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3275AC181688F68A004577C3 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3275AC2B1688F68A004577C3 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3275AC1A1688F68A004577C3 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3275AC2C1688F68A004577C3 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3275AC1C1688F68A004577C3 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3275AC2D1688F68A004577C3 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3275AC1E1688F68A004577C3 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3275AC2E1688F68A004577C3 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3275AC201688F68A004577C3 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3275AC2F1688F68A004577C3 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 3275AC241688F68A004577C3 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3275AC301688F68A004577C3 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3275AC261688F68A004577C3 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3275AC311688F68A004577C3 /* ASIWebPageRequest in Resources */ = {isa = PBXBuildFile; fileRef = 3275AC281688F68A004577C3 /* ASIWebPageRequest */; };
+		3275AC331688F6AC004577C3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3275AC321688F6AC004577C3 /* CFNetwork.framework */; };
+		3275AC351688F6B4004577C3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3275AC341688F6B4004577C3 /* SystemConfiguration.framework */; };
+		3275AC371688F6BC004577C3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3275AC361688F6BC004577C3 /* MobileCoreServices.framework */; };
+		3275AC391688F6DD004577C3 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3275AC381688F6DD004577C3 /* libz.1.1.3.dylib */; };
+		3275AC3C1688F7BA004577C3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3275AC3B1688F7BA004577C3 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3285409616AC45F200B0E947 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3285409516AC45F200B0E947 /* logo1.png */; };
+		3298051216ACD40700162E73 /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3298051116ACD40700162E73 /* AboutController.m */; };
+		32A4DFBC16865C75000A22F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A4DFBB16865C75000A22F1 /* UIKit.framework */; };
+		32A4DFBE16865C75000A22F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A4DFBD16865C75000A22F1 /* Foundation.framework */; };
+		32A4DFC016865C75000A22F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A4DFBF16865C75000A22F1 /* CoreGraphics.framework */; };
+		32A4DFC616865C75000A22F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32A4DFC416865C75000A22F1 /* InfoPlist.strings */; };
+		32A4DFC816865C75000A22F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A4DFC716865C75000A22F1 /* main.m */; };
+		32A4DFCC16865C75000A22F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A4DFCB16865C75000A22F1 /* AppDelegate.m */; };
+		32A4DFCE16865C75000A22F1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A4DFCD16865C75000A22F1 /* Default.png */; };
+		32A4DFD016865C75000A22F1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A4DFCF16865C75000A22F1 /* Default@2x.png */; };
+		32A4DFD216865C75000A22F1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A4DFD116865C75000A22F1 /* Default-568h@2x.png */; };
+		32A4DFE716865CB6000A22F1 /* libQuickDialog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A4DFE416865C9F000A22F1 /* libQuickDialog.a */; };
+		32A4DFE916865CB9000A22F1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A4DFE816865CB9000A22F1 /* MapKit.framework */; };
+		32A4DFEB16865CBD000A22F1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A4DFEA16865CBD000A22F1 /* CoreLocation.framework */; };
+		32A4DFEE168667B2000A22F1 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A4DFED168667B2000A22F1 /* LoginController.m */; };
+		32A4DFF016866ACC000A22F1 /* loginform.json in Resources */ = {isa = PBXBuildFile; fileRef = 32A4DFEF16866ACC000A22F1 /* loginform.json */; };
+		32A4E0061686B342000A22F1 /* LoginInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A4E0051686B342000A22F1 /* LoginInfo.m */; };
+		32A6A1BF16AF5539008BD45D /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A6A1BE16AF5539008BD45D /* icon@2x.png */; };
+		32CB65A31687EF3A007A5E5A /* LoginProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CB65A21687EF3A007A5E5A /* LoginProcessor.m */; };
+		32CB65C3168803D9007A5E5A /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CB65C2168803D9007A5E5A /* libxml2.2.dylib */; };
+		32CB65C516880484007A5E5A /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CB65C416880484007A5E5A /* TFHpple.m */; };
+		32CB65C716880490007A5E5A /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CB65C616880490007A5E5A /* XPathQuery.m */; };
+		32CB65C91688049F007A5E5A /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CB65C81688049F007A5E5A /* TFHppleElement.m */; };
+		32D4397E16AE1E6700A971C0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 32D4397D16AE1E6700A971C0 /* icon.png */; };
+		32D863871689496900F18BB2 /* GradeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D863861689496900F18BB2 /* GradeController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32A4DFE116865C9F000A22F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A4DFD816865C9E000A22F1 /* QuickDialog.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D80B0E3313E052DF00FA85CA;
+			remoteInfo = QuickDialogExample;
+		};
+		32A4DFE316865C9F000A22F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A4DFD816865C9E000A22F1 /* QuickDialog.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2C542393145ADEBD0026A152;
+			remoteInfo = QuickDialog;
+		};
+		32A4DFE516865CA5000A22F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A4DFD816865C9E000A22F1 /* QuickDialog.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C542392145ADEBD0026A152;
+			remoteInfo = QuickDialog;
+		};
+		32CB65BE168803B6007A5E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32CB65B4168803B6007A5E5A /* Hpple.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
+			remoteInfo = Hpple;
+		};
+		32CB65C0168803B6007A5E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32CB65B4168803B6007A5E5A /* Hpple.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75D785A30F34DFB000173CB6;
+			remoteInfo = Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32289382168FC9F10089EA4F /* GradeDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradeDataTableViewController.h; sourceTree = "<group>"; };
+		32289383168FC9F10089EA4F /* GradeDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradeDataTableViewController.m; sourceTree = "<group>"; };
+		3275AC141688F68A004577C3 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIAuthenticationDialog.h; path = ASIHTTP/Classes/ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		3275AC151688F68A004577C3 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIAuthenticationDialog.m; path = ASIHTTP/Classes/ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		3275AC161688F68A004577C3 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASICacheDelegate.h; path = ASIHTTP/Classes/ASICacheDelegate.h; sourceTree = "<group>"; };
+		3275AC171688F68A004577C3 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDataCompressor.h; path = ASIHTTP/Classes/ASIDataCompressor.h; sourceTree = "<group>"; };
+		3275AC181688F68A004577C3 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDataCompressor.m; path = ASIHTTP/Classes/ASIDataCompressor.m; sourceTree = "<group>"; };
+		3275AC191688F68A004577C3 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDataDecompressor.h; path = ASIHTTP/Classes/ASIDataDecompressor.h; sourceTree = "<group>"; };
+		3275AC1A1688F68A004577C3 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDataDecompressor.m; path = ASIHTTP/Classes/ASIDataDecompressor.m; sourceTree = "<group>"; };
+		3275AC1B1688F68A004577C3 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDownloadCache.h; path = ASIHTTP/Classes/ASIDownloadCache.h; sourceTree = "<group>"; };
+		3275AC1C1688F68A004577C3 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDownloadCache.m; path = ASIHTTP/Classes/ASIDownloadCache.m; sourceTree = "<group>"; };
+		3275AC1D1688F68A004577C3 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIFormDataRequest.h; path = ASIHTTP/Classes/ASIFormDataRequest.h; sourceTree = "<group>"; };
+		3275AC1E1688F68A004577C3 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIFormDataRequest.m; path = ASIHTTP/Classes/ASIFormDataRequest.m; sourceTree = "<group>"; };
+		3275AC1F1688F68A004577C3 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequest.h; path = ASIHTTP/Classes/ASIHTTPRequest.h; sourceTree = "<group>"; };
+		3275AC201688F68A004577C3 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIHTTPRequest.m; path = ASIHTTP/Classes/ASIHTTPRequest.m; sourceTree = "<group>"; };
+		3275AC211688F68A004577C3 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestConfig.h; path = ASIHTTP/Classes/ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		3275AC221688F68A004577C3 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestDelegate.h; path = ASIHTTP/Classes/ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		3275AC231688F68A004577C3 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIInputStream.h; path = ASIHTTP/Classes/ASIInputStream.h; sourceTree = "<group>"; };
+		3275AC241688F68A004577C3 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIInputStream.m; path = ASIHTTP/Classes/ASIInputStream.m; sourceTree = "<group>"; };
+		3275AC251688F68A004577C3 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASINetworkQueue.h; path = ASIHTTP/Classes/ASINetworkQueue.h; sourceTree = "<group>"; };
+		3275AC261688F68A004577C3 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASINetworkQueue.m; path = ASIHTTP/Classes/ASINetworkQueue.m; sourceTree = "<group>"; };
+		3275AC271688F68A004577C3 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIProgressDelegate.h; path = ASIHTTP/Classes/ASIProgressDelegate.h; sourceTree = "<group>"; };
+		3275AC281688F68A004577C3 /* ASIWebPageRequest */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ASIWebPageRequest; path = ASIHTTP/Classes/ASIWebPageRequest; sourceTree = "<group>"; };
+		3275AC321688F6AC004577C3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3275AC341688F6B4004577C3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3275AC361688F6BC004577C3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3275AC381688F6DD004577C3 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		3275AC3A1688F7BA004577C3 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ASIHTTP/External/Reachability/Reachability.h; sourceTree = "<group>"; };
+		3275AC3B1688F7BA004577C3 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ASIHTTP/External/Reachability/Reachability.m; sourceTree = "<group>"; };
+		3285409516AC45F200B0E947 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		3298051016ACD40700162E73 /* AboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutController.h; sourceTree = "<group>"; };
+		3298051116ACD40700162E73 /* AboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutController.m; sourceTree = "<group>"; };
+		32A4DFB716865C75000A22F1 /* Clarity Gradebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clarity Gradebook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A4DFBB16865C75000A22F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32A4DFBD16865C75000A22F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32A4DFBF16865C75000A22F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32A4DFC316865C75000A22F1 /* Clarity Gradebook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Clarity Gradebook-Info.plist"; sourceTree = "<group>"; };
+		32A4DFC516865C75000A22F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32A4DFC716865C75000A22F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32A4DFC916865C75000A22F1 /* Clarity Gradebook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clarity Gradebook-Prefix.pch"; sourceTree = "<group>"; };
+		32A4DFCA16865C75000A22F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32A4DFCB16865C75000A22F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32A4DFCD16865C75000A22F1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		32A4DFCF16865C75000A22F1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		32A4DFD116865C75000A22F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		32A4DFD816865C9E000A22F1 /* QuickDialog.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QuickDialog.xcodeproj; path = QuickDialog/QuickDialog.xcodeproj; sourceTree = "<group>"; };
+		32A4DFE816865CB9000A22F1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		32A4DFEA16865CBD000A22F1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		32A4DFEC168667B2000A22F1 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		32A4DFED168667B2000A22F1 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		32A4DFEF16866ACC000A22F1 /* loginform.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = loginform.json; path = ../QuickDialog/sample/Resources/loginform.json; sourceTree = "<group>"; };
+		32A4E0041686B33A000A22F1 /* LoginInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginInfo.h; sourceTree = "<group>"; };
+		32A4E0051686B342000A22F1 /* LoginInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginInfo.m; path = ../QuickDialog/sample/LoginInfo.m; sourceTree = "<group>"; };
+		32A6A1BE16AF5539008BD45D /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		32CB65A11687EF3A007A5E5A /* LoginProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginProcessor.h; sourceTree = "<group>"; };
+		32CB65A21687EF3A007A5E5A /* LoginProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginProcessor.m; sourceTree = "<group>"; };
+		32CB65B4168803B6007A5E5A /* Hpple.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Hpple.xcodeproj; path = hpple/Hpple.xcodeproj; sourceTree = "<group>"; };
+		32CB65C2168803D9007A5E5A /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		32CB65C416880484007A5E5A /* TFHpple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TFHpple.m; path = hpple/TFHpple.m; sourceTree = "<group>"; };
+		32CB65C616880490007A5E5A /* XPathQuery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = hpple/XPathQuery.m; sourceTree = "<group>"; };
+		32CB65C81688049F007A5E5A /* TFHppleElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TFHppleElement.m; path = hpple/TFHppleElement.m; sourceTree = "<group>"; };
+		32D4397D16AE1E6700A971C0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		32D863851689496800F18BB2 /* GradeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradeController.h; sourceTree = "<group>"; };
+		32D863861689496900F18BB2 /* GradeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradeController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32A4DFB416865C75000A22F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3275AC391688F6DD004577C3 /* libz.1.1.3.dylib in Frameworks */,
+				3275AC371688F6BC004577C3 /* MobileCoreServices.framework in Frameworks */,
+				3275AC351688F6B4004577C3 /* SystemConfiguration.framework in Frameworks */,
+				3275AC331688F6AC004577C3 /* CFNetwork.framework in Frameworks */,
+				32CB65C3168803D9007A5E5A /* libxml2.2.dylib in Frameworks */,
+				32A4DFEB16865CBD000A22F1 /* CoreLocation.framework in Frameworks */,
+				32A4DFE916865CB9000A22F1 /* MapKit.framework in Frameworks */,
+				32A4DFE716865CB6000A22F1 /* libQuickDialog.a in Frameworks */,
+				32A4DFBC16865C75000A22F1 /* UIKit.framework in Frameworks */,
+				32A4DFBE16865C75000A22F1 /* Foundation.framework in Frameworks */,
+				32A4DFC016865C75000A22F1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3275AC131688F67A004577C3 /* ASIHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				3275AC3A1688F7BA004577C3 /* Reachability.h */,
+				3275AC3B1688F7BA004577C3 /* Reachability.m */,
+				3275AC381688F6DD004577C3 /* libz.1.1.3.dylib */,
+				3275AC361688F6BC004577C3 /* MobileCoreServices.framework */,
+				3275AC341688F6B4004577C3 /* SystemConfiguration.framework */,
+				3275AC321688F6AC004577C3 /* CFNetwork.framework */,
+				32CB65C81688049F007A5E5A /* TFHppleElement.m */,
+				32CB65C616880490007A5E5A /* XPathQuery.m */,
+				32CB65C416880484007A5E5A /* TFHpple.m */,
+				32CB65C2168803D9007A5E5A /* libxml2.2.dylib */,
+				3275AC141688F68A004577C3 /* ASIAuthenticationDialog.h */,
+				3275AC151688F68A004577C3 /* ASIAuthenticationDialog.m */,
+				3275AC161688F68A004577C3 /* ASICacheDelegate.h */,
+				3275AC171688F68A004577C3 /* ASIDataCompressor.h */,
+				3275AC181688F68A004577C3 /* ASIDataCompressor.m */,
+				3275AC191688F68A004577C3 /* ASIDataDecompressor.h */,
+				3275AC1A1688F68A004577C3 /* ASIDataDecompressor.m */,
+				3275AC1B1688F68A004577C3 /* ASIDownloadCache.h */,
+				3275AC1C1688F68A004577C3 /* ASIDownloadCache.m */,
+				3275AC1D1688F68A004577C3 /* ASIFormDataRequest.h */,
+				3275AC1E1688F68A004577C3 /* ASIFormDataRequest.m */,
+				3275AC1F1688F68A004577C3 /* ASIHTTPRequest.h */,
+				3275AC201688F68A004577C3 /* ASIHTTPRequest.m */,
+				3275AC211688F68A004577C3 /* ASIHTTPRequestConfig.h */,
+				3275AC221688F68A004577C3 /* ASIHTTPRequestDelegate.h */,
+				3275AC231688F68A004577C3 /* ASIInputStream.h */,
+				3275AC241688F68A004577C3 /* ASIInputStream.m */,
+				3275AC251688F68A004577C3 /* ASINetworkQueue.h */,
+				3275AC261688F68A004577C3 /* ASINetworkQueue.m */,
+				3275AC271688F68A004577C3 /* ASIProgressDelegate.h */,
+				3275AC281688F68A004577C3 /* ASIWebPageRequest */,
+			);
+			name = ASIHTTP;
+			sourceTree = "<group>";
+		};
+		32A4DFAC16865C75000A22F1 = {
+			isa = PBXGroup;
+			children = (
+				32A4DFC116865C75000A22F1 /* Clarity Gradebook */,
+				32A4DFF216866B65000A22F1 /* Resources */,
+				32A4DFBA16865C75000A22F1 /* Frameworks */,
+				32A4DFB816865C75000A22F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32A4DFB816865C75000A22F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32A4DFB716865C75000A22F1 /* Clarity Gradebook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32A4DFBA16865C75000A22F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3275AC131688F67A004577C3 /* ASIHTTP */,
+				32CB65B4168803B6007A5E5A /* Hpple.xcodeproj */,
+				32A4DFEA16865CBD000A22F1 /* CoreLocation.framework */,
+				32A4DFE816865CB9000A22F1 /* MapKit.framework */,
+				32A4DFD816865C9E000A22F1 /* QuickDialog.xcodeproj */,
+				32A4DFBB16865C75000A22F1 /* UIKit.framework */,
+				32A4DFBD16865C75000A22F1 /* Foundation.framework */,
+				32A4DFBF16865C75000A22F1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32A4DFC116865C75000A22F1 /* Clarity Gradebook */ = {
+			isa = PBXGroup;
+			children = (
+				32A4DFEC168667B2000A22F1 /* LoginController.h */,
+				32A4DFED168667B2000A22F1 /* LoginController.m */,
+				32D863851689496800F18BB2 /* GradeController.h */,
+				32D863861689496900F18BB2 /* GradeController.m */,
+				32289382168FC9F10089EA4F /* GradeDataTableViewController.h */,
+				32289383168FC9F10089EA4F /* GradeDataTableViewController.m */,
+				32CB65A21687EF3A007A5E5A /* LoginProcessor.m */,
+				32CB65A11687EF3A007A5E5A /* LoginProcessor.h */,
+				32A4E0051686B342000A22F1 /* LoginInfo.m */,
+				3298051016ACD40700162E73 /* AboutController.h */,
+				3298051116ACD40700162E73 /* AboutController.m */,
+				32A4E0041686B33A000A22F1 /* LoginInfo.h */,
+				32A4DFEF16866ACC000A22F1 /* loginform.json */,
+				32A4DFCA16865C75000A22F1 /* AppDelegate.h */,
+				32A4DFCB16865C75000A22F1 /* AppDelegate.m */,
+				32A4DFC216865C75000A22F1 /* Supporting Files */,
+			);
+			path = "Clarity Gradebook";
+			sourceTree = "<group>";
+		};
+		32A4DFC216865C75000A22F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32A4DFC316865C75000A22F1 /* Clarity Gradebook-Info.plist */,
+				32A4DFC416865C75000A22F1 /* InfoPlist.strings */,
+				32A4DFC716865C75000A22F1 /* main.m */,
+				32A4DFC916865C75000A22F1 /* Clarity Gradebook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32A4DFD916865C9E000A22F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32A4DFE216865C9F000A22F1 /* QuickDialogExample.app */,
+				32A4DFE416865C9F000A22F1 /* libQuickDialog.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32A4DFF216866B65000A22F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32A6A1BE16AF5539008BD45D /* icon@2x.png */,
+				32A4DFCF16865C75000A22F1 /* Default@2x.png */,
+				32A4DFD116865C75000A22F1 /* Default-568h@2x.png */,
+				32A4DFCD16865C75000A22F1 /* Default.png */,
+				32D4397D16AE1E6700A971C0 /* icon.png */,
+				3285409516AC45F200B0E947 /* logo1.png */,
+			);
+			name = Resources;
+			path = "Clarity Gradebook";
+			sourceTree = "<group>";
+		};
+		32CB65B5168803B6007A5E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32CB65BF168803B6007A5E5A /* Hpple.app */,
+				32CB65C1168803B6007A5E5A /* Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32A4DFB616865C75000A22F1 /* Clarity Gradebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A4DFD516865C75000A22F1 /* Build configuration list for PBXNativeTarget "Clarity Gradebook" */;
+			buildPhases = (
+				32A4DFB316865C75000A22F1 /* Sources */,
+				32A4DFB416865C75000A22F1 /* Frameworks */,
+				32A4DFB516865C75000A22F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A4DFE616865CA5000A22F1 /* PBXTargetDependency */,
+			);
+			name = "Clarity Gradebook";
+			productName = "Clarity Gradebook";
+			productReference = 32A4DFB716865C75000A22F1 /* Clarity Gradebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32A4DFAE16865C75000A22F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Fire30;
+			};
+			buildConfigurationList = 32A4DFB116865C75000A22F1 /* Build configuration list for PBXProject "Clarity Gradebook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32A4DFAC16865C75000A22F1;
+			productRefGroup = 32A4DFB816865C75000A22F1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 32CB65B5168803B6007A5E5A /* Products */;
+					ProjectRef = 32CB65B4168803B6007A5E5A /* Hpple.xcodeproj */;
+				},
+				{
+					ProductGroup = 32A4DFD916865C9E000A22F1 /* Products */;
+					ProjectRef = 32A4DFD816865C9E000A22F1 /* QuickDialog.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				32A4DFB616865C75000A22F1 /* Clarity Gradebook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		32A4DFE216865C9F000A22F1 /* QuickDialogExample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = QuickDialogExample.app;
+			remoteRef = 32A4DFE116865C9F000A22F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A4DFE416865C9F000A22F1 /* libQuickDialog.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libQuickDialog.a;
+			remoteRef = 32A4DFE316865C9F000A22F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32CB65BF168803B6007A5E5A /* Hpple.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Hpple.app;
+			remoteRef = 32CB65BE168803B6007A5E5A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32CB65C1168803B6007A5E5A /* Test.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Test.app;
+			remoteRef = 32CB65C0168803B6007A5E5A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32A4DFB516865C75000A22F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A4DFC616865C75000A22F1 /* InfoPlist.strings in Resources */,
+				32A4DFCE16865C75000A22F1 /* Default.png in Resources */,
+				32A4DFD016865C75000A22F1 /* Default@2x.png in Resources */,
+				32A4DFD216865C75000A22F1 /* Default-568h@2x.png in Resources */,
+				32A4DFF016866ACC000A22F1 /* loginform.json in Resources */,
+				3275AC311688F68A004577C3 /* ASIWebPageRequest in Resources */,
+				3285409616AC45F200B0E947 /* logo1.png in Resources */,
+				32D4397E16AE1E6700A971C0 /* icon.png in Resources */,
+				32A6A1BF16AF5539008BD45D /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32A4DFB316865C75000A22F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CB65C91688049F007A5E5A /* TFHppleElement.m in Sources */,
+				32CB65C716880490007A5E5A /* XPathQuery.m in Sources */,
+				32CB65C516880484007A5E5A /* TFHpple.m in Sources */,
+				32A4DFC816865C75000A22F1 /* main.m in Sources */,
+				32A4DFCC16865C75000A22F1 /* AppDelegate.m in Sources */,
+				32A4DFEE168667B2000A22F1 /* LoginController.m in Sources */,
+				32A4E0061686B342000A22F1 /* LoginInfo.m in Sources */,
+				32CB65A31687EF3A007A5E5A /* LoginProcessor.m in Sources */,
+				3275AC291688F68A004577C3 /* ASIAuthenticationDialog.m in Sources */,
+				3275AC2A1688F68A004577C3 /* ASIDataCompressor.m in Sources */,
+				3275AC2B1688F68A004577C3 /* ASIDataDecompressor.m in Sources */,
+				3275AC2C1688F68A004577C3 /* ASIDownloadCache.m in Sources */,
+				3275AC2D1688F68A004577C3 /* ASIFormDataRequest.m in Sources */,
+				3275AC2E1688F68A004577C3 /* ASIHTTPRequest.m in Sources */,
+				3275AC2F1688F68A004577C3 /* ASIInputStream.m in Sources */,
+				3275AC301688F68A004577C3 /* ASINetworkQueue.m in Sources */,
+				3275AC3C1688F7BA004577C3 /* Reachability.m in Sources */,
+				32D863871689496900F18BB2 /* GradeController.m in Sources */,
+				32289384168FC9F10089EA4F /* GradeDataTableViewController.m in Sources */,
+				3298051216ACD40700162E73 /* AboutController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32A4DFE616865CA5000A22F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuickDialog;
+			targetProxy = 32A4DFE516865CA5000A22F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32A4DFC416865C75000A22F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A4DFC516865C75000A22F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32A4DFD316865C75000A22F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32A4DFD416865C75000A22F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32A4DFD616865C75000A22F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clarity Gradebook/Clarity Gradebook-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "Clarity Gradebook/Clarity Gradebook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/QuickDialog\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32A4DFD716865C75000A22F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clarity Gradebook/Clarity Gradebook-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "Clarity Gradebook/Clarity Gradebook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/QuickDialog\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32A4DFB116865C75000A22F1 /* Build configuration list for PBXProject "Clarity Gradebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A4DFD316865C75000A22F1 /* Debug */,
+				32A4DFD416865C75000A22F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A4DFD516865C75000A22F1 /* Build configuration list for PBXNativeTarget "Clarity Gradebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A4DFD616865C75000A22F1 /* Debug */,
+				32A4DFD716865C75000A22F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32A4DFAE16865C75000A22F1 /* Project object */;
+}
